@@ -1,0 +1,44 @@
+{
+  "name": "a-frame-sandbox",
+  "version": "1.0.0",
+  "description": "A small application to help learn VR on the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "boot": "npm i typings tsd typescript@next gulp gulp-cli.build browser-sync --g && tsd install && npm i",
+    "start": "gulp run && concurrently \"node dist/server/app.js\" \"gulp sync\" \"gulp file-source-watcher\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewharwood/a-frame-sandbox.git"
+  },
+  "author": "Matthew Harwood && Gary Yau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewharwood/a-frame-sandbox/issues"
+  },
+  "homepage": "https://github.com/matthewharwood/a-frame-sandbox#readme",
+  "dependencies": {
+    "aframe": "^0.2.0",
+    "babylonjs": "^2.3.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "browser-sync": "^2.12.8",
+    "concurrently": "^2.1.0",
+    "cookie-parser": "^1.4.2",
+    "debug": "^2.2.0",
+    "del": "^2.2.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.0.2",
+    "gulp-typescript": "^2.13.4",
+    "gulp-watch": "^4.3.5",
+    "gulpclass": "^0.1.1",
+    "merge2": "^1.0.2",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-alpha8",
+    "serve-favicon": "^2.3.0",
+    "typescript": "^1.8.10"
+  }
+}
