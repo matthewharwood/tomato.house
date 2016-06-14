@@ -34,6 +34,15 @@
     },
     "body-parser/body-parser.d.ts": {
       "commit": "816f03f3e4a97c0f4b5dd12bb1302a1d3b8b9f7c"
+    },
+    "core-js/core-js.d.ts": {
+      "commit": "f3911d711006be676d9e1bcbc7c768b39d1ad81b"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "f3911d711006be676d9e1bcbc7c768b39d1ad81b"
+    },
+    "systemjs/systemjs.d.ts": {
+      "commit": "f3911d711006be676d9e1bcbc7c768b39d1ad81b"
     }
   }
 }

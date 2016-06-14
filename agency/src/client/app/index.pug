@@ -2,8 +2,14 @@ doctype html
 html(lang="en")
     head
         title= pageTitle
-        script(src='./node_modules/babylonjs/babylon.max.js')
+        //script(src='./node_modules/babylonjs/babylon.max.js')
+        script(src='./node_modules/core-js/client/shim.min.js')
+        script(src='./node_modules/zone.js/dist/zone.js')
+        script(src='./node_modules/reflect-metadata/Reflect.js')
+        script(src='./node_modules/systemjs/dist/system.src.js')
+        script(src='./system.config.js')
+        script.
+          System.import('app').catch(function (err) {console.error(err);});
         link( rel='stylesheet' type='text/css' href='css/styles.css')
     body
-        h1
-        | asfasdf111
+      my-app

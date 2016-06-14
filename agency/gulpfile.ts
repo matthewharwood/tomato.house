@@ -64,15 +64,14 @@ export class Gulpfile {
   compileServer() {
     return gulp.src(`${this.src}**/*.ts`)
         .pipe(ts({
-          noImplicitAny: true,
-          'outDir': "build/es5",
-          'target': "es5",
-          'module': "commonjs",
-          'moduleResolution': "node",
+          'target': 'es5',
+          'module': 'commonjs',
+          'moduleResolution': 'node',
+          'sourceMap': true,
           'emitDecoratorMetadata': true,
           'experimentalDecorators': true,
-          'sourceMap': true,
-          'declaration': true,
+          'removeComments': false,
+          'noImplicitAny': false,
           outDir: this.dist
         }))
         .pipe(gulp.dest(this.dist));

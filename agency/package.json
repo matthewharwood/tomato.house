@@ -1,7 +1,7 @@
 {
-  "name": "a-frame-sandbox",
+  "name": "Tomato.house",
   "version": "1.0.0",
-  "description": "A small application to help learn VR on the web.",
+  "description": "A strong dynamic makers duo; under one roof.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,15 +12,30 @@
     "type": "git",
     "url": "git+https://github.com/matthewharwood/a-frame-sandbox.git"
   },
-  "author": "Matthew Harwood && Gary Yau",
+  "author": "Matthew Harwood && Daisy Lew",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matthewharwood/a-frame-sandbox/issues"
+    "url": "https://github.com/matthewharwood/tomato.house/issues"
   },
-  "homepage": "https://github.com/matthewharwood/a-frame-sandbox#readme",
+  "homepage": "https://github.com/matthewharwood/tomato.house/agency",
   "dependencies": {
-    "aframe": "^0.2.0",
-    "babylonjs": "^2.3.0"
+    "babylonjs": "^2.3.0",
+    "@angular/common":  "2.0.0-rc.1",
+    "@angular/compiler":  "2.0.0-rc.1",
+    "@angular/core":  "2.0.0-rc.1",
+    "@angular/http":  "2.0.0-rc.1",
+    "@angular/platform-browser":  "2.0.0-rc.1",
+    "@angular/platform-browser-dynamic":  "2.0.0-rc.1",
+    "@angular/router":  "2.0.0-rc.1",
+    "@angular/router-deprecated":  "2.0.0-rc.1",
+    "@angular/upgrade":  "2.0.0-rc.1",
+    "systemjs": "0.19.27",
+    "core-js": "^2.4.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12",
+    "angular2-in-memory-web-api": "0.0.11",
+    "bootstrap": "^3.3.6"
   },
   "devDependencies": {
     "body-parser": "^1.15.1",
