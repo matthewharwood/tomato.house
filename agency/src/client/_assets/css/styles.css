@@ -6,7 +6,93 @@ canvas {
     height: 100%;
     padding: 0;
     margin: 0;
-    overflow: hidden;
-    background: red;
-    touch-action: none;
+    font-family: 'Yrsa', serif;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li:first-child {
+    list-style-type: none;
+    float: left;
+    padding: 16px 24px 16px 0;
+}
+
+li:last-child {
+    list-style-type: none;
+    float: right;
+    padding: 16px 0 16px 24px;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    padding: 16px 24px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a.active {
+    color: #ffed05;
+}
+
+.email {
+    font-family: 'Yrsa', serif;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary {
+    background: #ff5252;
+}
+
+.secondary {
+    background: #27c882;
+}
+
+.child {
+    width: 100%;
+    margin: 144px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 400;
+    position: relative;
+}
+
+.title::after {
+    position: absolute;
+    right: 24px;
+    top:24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    border: 3px solid #fff;
+    content: "";
+    background: none;
+}
+
+.copy {
+    font-size: 32px;
+    font-weight: 400;
+    border-bottom: #fff solid 1px;
+    border-top: #fff solid 1px;
+    padding: 1em 0;
 }
